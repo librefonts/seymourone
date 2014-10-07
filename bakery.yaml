@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [src/SeymourOne-Regular.ufo, SeymourOne-Regular.ttf.ttx, src/SeymourOne-Regular.otf.ttx,
+  src/SeymourOne-Regular-unhinted.ttf.ttx, src/SeymourOne-Regular-TTF.sfd, src/SeymourOne-Regular.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
